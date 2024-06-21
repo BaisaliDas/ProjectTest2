@@ -23,5 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('country/',country,name='country'),
-    path('changu/',changu,name='changu')
+    path('person/',person,name='person'),
+    path('maths/',maths,name= 'maths'),
 ]
